@@ -198,8 +198,6 @@ room[5] = room5;
 
 // Set starting items
 inventory[0] = item[0].itemName;
-inventory[1] = item[5].itemName;
-inventory[2] = item[10].itemName;
 
 
 /*-----------------------
