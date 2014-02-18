@@ -1,0 +1,119 @@
+body {
+	font-family: Helvetica, arial, sans-serif;
+	font-size: 0.9em;
+}
+
+#wrapper {
+	position: relative;
+	margin: auto;
+	width: 775px;
+}
+
+#leftColumn {
+	float: left;
+	width: 440px;
+}
+
+#rightColumn {
+	margin-left: 460px;
+	width: 315px;
+}
+
+h1 {
+	background-image: url("images/logo.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 85px;
+	text-indent: -9999px;
+}
+
+p {
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+}
+
+hr {
+	margin-top: 30px;
+	clear: both;
+	border-width: 0px;
+}
+
+#tip {
+	color: #666666;
+	font-size: 0.8em;
+}
+
+#plane {
+	position: relative;
+	background-image: url('images/plane-upper.png');
+	width: 315px;
+	height: 401px;
+}
+
+#planeMarker {
+	position: absolute;
+	left: 105px;
+	background-image: url('images/plane-marker2.png');
+	background-position: bottom;
+	background-repeat: no-repeat;
+	width: 70px;
+	height: 60px;
+
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #BE1E2D;
+	text-align: center;
+}
+
+#feedback-output {
+	margin-top: 5px;
+	color: #ff0000;
+}
+
+.icons {
+	padding-left: 40px;
+	height: 50px;
+}
+
+#icon-visible {
+	background-image: url("images/optionsIcon-visible.png");
+	background-repeat: no-repeat;
+}
+
+#icon-exits {
+	background-image: url("images/optionsIcon-direction.png");
+	background-repeat: no-repeat;
+}
+
+#icon-inventory {
+	background-image: url("images/optionsIcon-inventory.png");
+	background-repeat: no-repeat;
+}
+
+#icon-altitude {
+	background-image: url("images/optionsIcon-altitude.png");
+	background-repeat: no-repeat;
+}
+
+#gameStatus {
+	display: none;
+	margin-bottom: 20px;
+}
+
+#gameStatus #gameStatus-output{
+	color: #ff0000;
+	font-size: 1.5em;
+	margin: 0px;
+}
+
+#gameStatus #reload {
+	font-size: 1em;
+}
+
+a:link, a:visited {
+	color: #333333;
+}
+
+a:hover {
+	color: #ff0000;
+}

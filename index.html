@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+	    <link rel="stylesheet" href="styles.css" type="text/css">
+	</head>
+	
+	<body>
+		<div id = 'wrapper'>
+			<h1>Escape from Flight A2230</h1>
+			<div id='leftColumn'>
+				<p id = 'data-output'></p>
+				<p id = 'move-output'></p>
+				<p id = 'room-output'></p>
+				<p id = 'message-output'></p>
+				<p id = 'action-output'></p>
+				<p id = 'additional-output'></p>
+				<p id = 'negativeFeedback-output'></p>
+
+
+				<div class ='icons' id ='icon-exits'>
+					<strong>Your see the following exits:</strong>
+					<p id='exits-output'></p>
+				</div>
+
+
+				<div class ='icons' id ='icon-visible'>
+					<strong>The see the following items</strong>
+					<p id = 'visibleItems-output'></p>
+				</div>
+
+				<div class ='icons' id ='icon-inventory'>
+					<strong>Your pack contains the following</strong>
+					<p id = 'inventory-output'></p>
+				</div>
+
+
+				<p>What would you like to do?</p>
+				<p id = 'tip'>You are free to MOVE, TAKE items, DROP items, INSPECT items and USE items</p>
+
+				<form id = 'commandForm'>
+					<input type='text' id='command'>
+					<input type='submit' value='Do it' id='doit'>
+				</form>
+
+				<div class ='icons' id ='icon-altitude'>
+					<strong>Altitude:</strong>
+					<p id='altitude-output'></p>
+				</div>
+				<p id = 'gameStatus-output'></p>
+			</div>
+
+
+			<div id = 'rightColumn'>
+				<div id='plane'>
+					<div id='planeMarker'></div>
+				</div>
+			</div>
+
+			<hr>
+
+		</div>
+			
+		<script src="js/adventure2.js"></script>
+
+	</body>
+</html>
