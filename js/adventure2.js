@@ -506,18 +506,18 @@ function useItem() {
                             $('#additional-output').html(additionalMessage);
                             feedbackMessage = ""                 
                         } 
-                        if (commandPostVerb == "skymall catalogue" && currentRoom == 4) {
+                        else if (commandPostVerb == "skymall catalogue" && currentRoom == 4) {
                             additionalMessage = item[j].itemUseCorrect;
                             $('#additional-output').html(additionalMessage);
                             feedbackMessage = ""                 
                         }
-                        if (commandPostVerb == "can of mountain dew") {
+                        else if (commandPostVerb == "can of mountain dew") {
                             additionalMessage = item[j].itemUseCorrect;
                             $('#additional-output').html(additionalMessage);
                             feedbackMessage = ""
                             gameEnd = true;     
                         }
-                        if (commandPostVerb == "flare gun" && currentRoom == 5){
+                        else if (commandPostVerb == "flare gun" && currentRoom == 5){
                             additionalMessage = item[j].itemUseCorrect;
                             $('#additional-output').html(additionalMessage);
 
